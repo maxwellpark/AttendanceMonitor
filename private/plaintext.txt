@@ -1,0 +1,27 @@
+ Format: username, password 
+ 
+ students 
+    1, heymate
+    2, 
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12, 
+
+lecturers
+    mjane, orchidsunrise
+    dthompson, meanqueen 
+    jdavies, averagejoe 
+
+managers
+    jjameson, whiskey123        
+
+
+
+assign a student a password using the New Users option on the login form 

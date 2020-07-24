@@ -1,0 +1,122 @@
+main {
+  margin: 1rem auto;
+  max-width: 1000px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/blueOval.jpg");
+  background-blend-mode: hard-light;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  display: flex;
+  font: "Arial";
+  font-family: "Arial";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.message-container {
+  position: absolute;
+}
+
+i {
+  padding: 10px;
+  color: blue;
+}
+
+#failed-login {
+  font-size: xx-large;
+}
+
+.login-form {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+  color: whitesmoke;
+  padding: 30px, 30px;
+  width: 280px;
+  top: 50%;
+  left: 50%;
+  min-width: 400px;
+  max-width: 600px;
+  opacity: 0.8;
+}
+
+.login-textbox {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 1.5em;
+  font-weight: normal;
+  overflow: hidden;
+}
+
+.login-textbox label {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.2em;
+  margin-bottom: 7px;
+}
+
+.login-textbox input {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #333;
+  outline: none;
+  font-size: 1em;
+  padding: 0.1em, 0.25em;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+}
+
+.login-button,
+.forgot-button {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #222;
+  outline: none;
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.login-button:hover,
+.forgot-button:hover {
+  background-color: lightgray;
+}
+
+.login-button:focus {
+  background-color: #333;
+}
+
+.login-header {
+  text-align: center;
+  border-bottom: 5px solid lightgray;
+}
+
+::selection {
+  background: #333;
+}
+
+@media all and (min-width: 600px) {
+  .form-box {
+    flex-direction: row;
+  }
+  .form-box label {
+    flex-basis: 9rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+}
