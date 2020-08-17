@@ -24,6 +24,6 @@ class Routing
             session_regenerate_id(true);
         }
         // redirect to login page 
-        header("Location: /AttendanceMonitor/public/index.php" /* include response code param? */); 
+        header("Location: /AttendanceMonitor/public/index.php"); 
     }
 }
